@@ -1,12 +1,6 @@
 <?php
-$car=array("Volvo","Toyota","BMW");
-	echo "<table border='1'>";
-	echo "<tr>";
-	echo "<td>";
-	echo "Car_Name" ;
-	echo "</td>";
-	echo "</tr>";
 
+<<<<<<< HEAD
 for($i=0;$i<3;$i++){
 	echo "<tr>";
 	echo "<td>";
@@ -64,5 +58,9 @@ if(!empty($address)){
 }
 
 echo "h2_fixes testing";
+=======
+echo "h2_fixes testing";
+echo "another testing";
+>>>>>>> feature/h2_fixes
 
 ?>
