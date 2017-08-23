@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src='jquery.min.js'></script>
+<script>
+$(document).ready(function(){
+	$("p").on({
+    mouseenter: function(){
+        $(this).css("background-color", "lightgray");
+    }, 
+    mouseleave: function(){
+        $(this).css("background-color", "lightpink");
+    }, 
+    click: function(){
+        $(this).css("background-color", "pink");
+    } 
+    });
+});
+
+</script>
+	<title></title>
+</head>
+<body>
+<p>Mouse Enter</p>
+<p>Mouse leave</p>
+<p>Click</p>
+</body>
+</html>
