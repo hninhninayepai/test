@@ -62,9 +62,7 @@ if(!empty($address)){
 	echo "Please enter your address";
 	echo "<br>";
 }
-<<<<<<< HEAD
-echo "h1 testing";
-=======
+
 echo "h2_fixes testing";
->>>>>>> feature/h2_fixes
+
 ?>
