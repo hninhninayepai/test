@@ -62,4 +62,5 @@ if(!empty($address)){
 	echo "Please enter your address";
 	echo "<br>";
 }
+echo "h2_fixes testing";
 ?>
